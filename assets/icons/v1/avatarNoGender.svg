@@ -1,0 +1,17 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgAvatarNoGender(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 60 60"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M30 0H0v60h60V0zm18.78 50.75a20 20 0 00-37.4.14 28 28 0 1137.4-.14zM44.63 3.8zM13.26 5.1zm-7.17 43v.05zm47.79-36.25zm-11.77 12a12 12 0 11-12-12 12 12 0 0112 12.01z"
+  })));
+}
+
+export default "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'%3E%3Ctitle%3Eno-gender%3C/title%3E%3Cg%3E%3Cg%3E%3Cpath d='M30,0H0V60H60V0ZM48.78,50.75a20,20,0,0,0-37.4.14,28,28,0,1,1,37.4-.14ZM44.63,3.8h0ZM13.26,5.1h0Zm-7.17,43,0,.05,0,0ZM53.88,11.85h0Zm-11.77,12a12,12,0,1,1-12-12A12,12,0,0,1,42.11,23.86Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E";
+export { SvgAvatarNoGender as ReactComponent };

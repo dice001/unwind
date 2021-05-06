@@ -1,0 +1,17 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgDefaultAvatar(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 60 60"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M0 0v60h60V0zm40.37 47a19.15 19.15 0 01-26.47-5.77l-.06-.09a1 1 0 011.74-1 17.15 17.15 0 0028.85 0l.06-.09a1 1 0 011.62 1.17A19.15 19.15 0 0140.37 47zM20.84 28a3.58 3.58 0 00-3.58 3.58 1 1 0 01-2 0 5.58 5.58 0 1111.16 0 1 1 0 01-2 0 3.58 3.58 0 00-3.58-3.63zm18.32 0a3.58 3.58 0 00-3.58 3.58 1 1 0 01-2 0 5.58 5.58 0 1111.16 0 1 1 0 01-2 0 3.58 3.58 0 00-3.58-3.63z"
+  })));
+}
+
+export default "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'%3E%3Cg%3E%3Cg%3E%3Cpath d='M0,0V60H60V0ZM40.37,47A19.15,19.15,0,0,1,13.9,41.23l-.06-.09a1,1,0,0,1,1.74-1,17.15,17.15,0,0,0,28.85,0l.06-.09a1,1,0,0,1,1.62,1.17A19.15,19.15,0,0,1,40.37,47Zm-19.53-19a3.58,3.58,0,0,0-3.58,3.58,1,1,0,0,1-2,0,5.58,5.58,0,1,1,11.16,0,1,1,0,0,1-2,0h0A3.58,3.58,0,0,0,20.84,27.95Zm18.32,0a3.58,3.58,0,0,0-3.58,3.58,1,1,0,0,1-2,0,5.58,5.58,0,1,1,11.16,0,1,1,0,0,1-2,0h0A3.58,3.58,0,0,0,39.16,27.95Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E";
+export { SvgDefaultAvatar as ReactComponent };

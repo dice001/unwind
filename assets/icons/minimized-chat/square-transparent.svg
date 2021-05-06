@@ -1,0 +1,24 @@
+var _g;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgSquareTransparent(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    viewBox: "0 0 32 32",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    fill: "currentColor",
+    fillRule: "nonzero"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M4.224 29.97l-1.73-.898V5.307l1.07-1.062H28.93L30 5.307v19.436l-1.07 1.062H9.905L4.224 29.97zm.494-23.602v20.58l4.2-3.103.658-.245h18.365V6.368H4.718z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M9.906 10.533h13.835v2.205H9.906zM12.212 16.658h8.235v2.205h-8.235z"
+  }))));
+}
+
+export default "data:image/svg+xml,%3Csvg width='32px' height='32px' viewBox='0 0 32 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg transform='translate(2.000000, 4.000000)' fill='currentColor' fill-rule='nonzero'%3E %3Cpath d='M2.22352941,25.97 L0.494117647,25.0716667 L0.494117647,1.30666667 L1.56470588,0.245 L26.9294118,0.245 L28,1.30666667 L28,20.7433333 L26.9294118,21.805 L7.90588235,21.805 L2.22352941,25.97 Z M2.71764706,2.36833333 L2.71764706,22.9483333 L6.91764706,19.845 L7.57647059,19.6 L25.9411765,19.6 L25.9411765,2.36833333 L2.71764706,2.36833333 Z'%3E%3C/path%3E %3Crect id='Rectangle' x='7.90588235' y='6.53333333' width='13.8352941' height='2.205'%3E%3C/rect%3E %3Crect id='Rectangle' x='10.2117647' y='12.6583333' width='8.23529412' height='2.205'%3E%3C/rect%3E %3C/g%3E %3C/g%3E %3C/svg%3E";
+export { SvgSquareTransparent as ReactComponent };

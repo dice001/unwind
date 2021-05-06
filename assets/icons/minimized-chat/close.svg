@@ -1,0 +1,21 @@
+var _path;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgClose(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M18.77 4L20 5.23 13.23 12 20 18.77 18.77 20 12 13.23 5.23 20 4 18.77 10.769 12 4 5.23 5.23 4 12 10.769 18.77 4z",
+    fill: "currentColor",
+    fillRule: "evenodd"
+  })));
+}
+
+export default "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cg fill='none' fill-rule='evenodd'%3E %3Cg fill='currentColor'%3E %3Cg%3E %3Cpath d='M18.77 4L20 5.23 13.23 12 20 18.77 18.77 20 12 13.23 5.23 20 4 18.77 10.769 12 4 5.23 5.23 4 12 10.769 18.77 4z' transform='translate(-2676 -290) translate(2676 290)'/%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E";
+export { SvgClose as ReactComponent };

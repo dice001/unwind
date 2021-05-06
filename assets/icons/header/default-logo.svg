@@ -1,0 +1,133 @@
+var _style, _linearGradient, _circle, _g;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgDefaultLogo(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "default-logo_svg__Layer_1",
+    xmlns: "http://www.w3.org/2000/svg",
+    x: 0,
+    y: 0,
+    viewBox: "0 0 49.3 49.2",
+    xmlSpace: "preserve"
+  }, props), _style || (_style = /*#__PURE__*/React.createElement("style", null, ".default-logo_svg__st5{opacity:.4;fill:#fff;enable-background:new}")), _linearGradient || (_linearGradient = /*#__PURE__*/React.createElement("linearGradient", {
+    id: "default-logo_svg__path-3_1_",
+    gradientUnits: "userSpaceOnUse",
+    x1: 0.168,
+    y1: 25.137,
+    x2: 49.168,
+    y2: 25.137,
+    gradientTransform: "matrix(1 0 0 -1 0 49.77)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0,
+    stopColor: "#cac9cc"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#d8d8d8"
+  }))), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    id: "default-logo_svg__path-3",
+    cx: 24.7,
+    cy: 24.6,
+    r: 24,
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    fill: "#fff",
+    stroke: "url(#default-logo_svg__path-3_1_)",
+    strokeMiterlimit: 10
+  })), _g || (_g = /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("g", {
+    id: "default-logo_svg__Artboard"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "default-logo_svg__Combined-Shape-_x2B_-Path-_x2B_-Fill-37-Mask",
+    transform: "translate(1 1)"
+  }, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "default-logo_svg__SVGID_1_",
+    gradientUnits: "userSpaceOnUse",
+    x1: 18.993,
+    y1: 48.632,
+    x2: 18.993,
+    y2: 1.632,
+    gradientTransform: "matrix(1 0 0 -1 1 48.77)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0,
+    stopColor: "#d8d8d8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#c7c6c9"
+  })), /*#__PURE__*/React.createElement("path", {
+    d: "M23.7 47.1c6 0 11.4-2.2 15.5-5.9L15.9 21.8c-1.8-1.5-4.8-1.5-6.6 0L.8 28.9c2.4 10.5 11.7 18.2 22.9 18.2z",
+    fill: "url(#default-logo_svg__SVGID_1_)"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M23.7 47.1c6 0 11.4-2.2 15.5-5.9L15.9 21.8c-1.8-1.5-4.8-1.5-6.6 0L.8 28.9c2.4 10.5 11.7 18.2 22.9 18.2z",
+    opacity: 0.7,
+    fill: "#fff"
+  }), /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "default-logo_svg__SVGID_2_",
+    gradientUnits: "userSpaceOnUse",
+    x1: 38.133,
+    y1: 48.632,
+    x2: 38.133,
+    y2: 1.632,
+    gradientTransform: "matrix(1 0 0 -1 1 48.77)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0,
+    stopColor: "#d8d8d8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#c7c6c9"
+  })), /*#__PURE__*/React.createElement("path", {
+    fill: "url(#default-logo_svg__SVGID_2_)",
+    d: "M39.2 41.3l-.2-.2z"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "default-logo_svg__SVGID_3_",
+    gradientUnits: "userSpaceOnUse",
+    x1: 22.668,
+    y1: 48.627,
+    x2: 22.668,
+    y2: 1.627,
+    gradientTransform: "matrix(1 0 0 -1 1 48.77)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0,
+    stopColor: "#d8d8d8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#c7c6c9"
+  })), /*#__PURE__*/React.createElement("path", {
+    d: "M40.8 27.8l4.9 4.1c1-2.6 1.5-5.3 1.5-8.2C47.2 10.7 36.7.2 23.7.2S.2 10.7.2 23.6c0 1.8.2 3.6.6 5.3l8.5-7.1c1.8-1.5 4.8-1.5 6.6 0l12.8 10.7 5.6-4.7c1.8-1.5 4.7-1.5 6.5 0z",
+    fill: "url(#default-logo_svg__SVGID_3_)"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "default-logo_svg__st5",
+    d: "M28.6 32.5L39 41.1l-10.3-8.6z"
+  }), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "default-logo_svg__SVGID_4_",
+    gradientUnits: "userSpaceOnUse",
+    x1: 36.173,
+    y1: 48.632,
+    x2: 36.173,
+    y2: 1.632,
+    gradientTransform: "matrix(1 0 0 -1 1 48.77)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0,
+    stopColor: "#d8d8d8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#c7c6c9"
+  })), /*#__PURE__*/React.createElement("path", {
+    d: "M45.7 31.9l-4.9-4.1c-1.8-1.5-4.8-1.5-6.6 0l-5.6 4.7L39 41.1l.2.1c2.9-2.5 5.1-5.7 6.5-9.3z",
+    fill: "url(#default-logo_svg__SVGID_4_)"
+  }), /*#__PURE__*/React.createElement("path", {
+    className: "default-logo_svg__st5",
+    d: "M45.7 31.9l-4.9-4.1c-1.8-1.5-4.8-1.5-6.6 0l-5.6 4.7L39 41.1l.2.1c2.9-2.5 5.1-5.7 6.5-9.3z"
+  })), /*#__PURE__*/React.createElement("path", {
+    id: "default-logo_svg__Fill-37",
+    d: "M23.7 16.6c0 3.3 2.7 6 6 6s6-2.7 6-6-2.7-6-6-6-6 2.7-6 6",
+    opacity: 0.7,
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    fill: "#fff"
+  }))))));
+}
+
+export default "data:image/svg+xml,%3C?xml version='1.0' encoding='utf-8'?%3E %3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 49.3 49.2' style='enable-background:new 0 0 49.3 49.2;' xml:space='preserve'%3E %3Cstyle type='text/css'%3E .st0%7Bfill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;stroke:url(%23path-3_1_);stroke-miterlimit:10;%7D .st1%7Bfill:url(%23SVGID_1_);%7D .st2%7Bopacity:0.7;fill:%23FFFFFF;enable-background:new ;%7D .st3%7Bfill:url(%23SVGID_2_);%7D .st4%7Bfill:url(%23SVGID_3_);%7D .st5%7Bopacity:0.4;fill:%23FFFFFF;enable-background:new ;%7D .st6%7Bfill:url(%23SVGID_4_);%7D .st7%7Bopacity:0.7;fill-rule:evenodd;clip-rule:evenodd;fill:%23FFFFFF;enable-background:new ;%7D %3C/style%3E %3Cg%3E %3ClinearGradient id='path-3_1_' gradientUnits='userSpaceOnUse' x1='0.1676' y1='25.1369' x2='49.1676' y2='25.1369' gradientTransform='matrix(1 0 0 -1 0 49.7697)'%3E %3Cstop offset='0' style='stop-color:%23CAC9CC'/%3E %3Cstop offset='1' style='stop-color:%23D8D8D8'/%3E %3C/linearGradient%3E %3Ccircle id='path-3' class='st0' cx='24.7' cy='24.6' r='24'/%3E %3C/g%3E %3Cg%3E %3Ctitle%3EArtboard%3C/title%3E %3Cg id='Artboard'%3E %3Cg id='Combined-Shape-_x2B_-Path-_x2B_-Fill-37-Mask' transform='translate(1.000000, 1.000000)'%3E %3Cg%3E %3ClinearGradient id='SVGID_1_' gradientUnits='userSpaceOnUse' x1='18.9926' y1='48.6323' x2='18.9926' y2='1.6323' gradientTransform='matrix(1 0 0 -1 1 48.7697)'%3E %3Cstop offset='0' style='stop-color:%23D8D8D8'/%3E %3Cstop offset='1' style='stop-color:%23C7C6C9'/%3E %3C/linearGradient%3E %3Cpath class='st1' d='M23.7,47.1c6,0,11.4-2.2,15.5-5.9L15.9,21.8c-1.8-1.5-4.8-1.5-6.6,0l-8.5,7.1C3.2,39.4,12.5,47.1,23.7,47.1 z'/%3E %3Cpath class='st2' d='M23.7,47.1c6,0,11.4-2.2,15.5-5.9L15.9,21.8c-1.8-1.5-4.8-1.5-6.6,0l-8.5,7.1C3.2,39.4,12.5,47.1,23.7,47.1 z'/%3E %3C/g%3E %3Cg%3E %3ClinearGradient id='SVGID_2_' gradientUnits='userSpaceOnUse' x1='38.1326' y1='48.6323' x2='38.1326' y2='1.6323' gradientTransform='matrix(1 0 0 -1 1 48.7697)'%3E %3Cstop offset='0' style='stop-color:%23D8D8D8'/%3E %3Cstop offset='1' style='stop-color:%23C7C6C9'/%3E %3C/linearGradient%3E %3Cpolygon class='st3' points='39.2,41.3 39.2,41.3 39,41.1 '/%3E %3ClinearGradient id='SVGID_3_' gradientUnits='userSpaceOnUse' x1='22.6676' y1='48.6269' x2='22.6676' y2='1.6269' gradientTransform='matrix(1 0 0 -1 1 48.7697)'%3E %3Cstop offset='0' style='stop-color:%23D8D8D8'/%3E %3Cstop offset='1' style='stop-color:%23C7C6C9'/%3E %3C/linearGradient%3E %3Cpath class='st4' d='M40.8,27.8l4.9,4.1c1-2.6,1.5-5.3,1.5-8.2c0-13-10.5-23.5-23.5-23.5S0.2,10.7,0.2,23.6 c0,1.8,0.2,3.6,0.6,5.3l8.5-7.1c1.8-1.5,4.8-1.5,6.6,0l12.8,10.7l5.6-4.7C36.1,26.3,39,26.3,40.8,27.8z'/%3E %3Cpolygon class='st5' points='28.6,32.5 39,41.1 28.7,32.5 '/%3E %3ClinearGradient id='SVGID_4_' gradientUnits='userSpaceOnUse' x1='36.1726' y1='48.6323' x2='36.1726' y2='1.6323' gradientTransform='matrix(1 0 0 -1 1 48.7697)'%3E %3Cstop offset='0' style='stop-color:%23D8D8D8'/%3E %3Cstop offset='1' style='stop-color:%23C7C6C9'/%3E %3C/linearGradient%3E %3Cpath class='st6' d='M45.7,31.9l-4.9-4.1c-1.8-1.5-4.8-1.5-6.6,0l-5.6,4.7L39,41.1l0.2,0.1C42.1,38.7,44.3,35.5,45.7,31.9z'/%3E %3Cpath class='st5' d='M45.7,31.9l-4.9-4.1c-1.8-1.5-4.8-1.5-6.6,0l-5.6,4.7L39,41.1l0.2,0.1C42.1,38.7,44.3,35.5,45.7,31.9z'/%3E %3C/g%3E %3Cpath id='Fill-37' class='st7' d='M23.7,16.6c0,3.3,2.7,6,6,6c3.3,0,6-2.7,6-6c0-3.3-2.7-6-6-6C26.4,10.6,23.7,13.3,23.7,16.6'/%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E";
+export { SvgDefaultLogo as ReactComponent };
