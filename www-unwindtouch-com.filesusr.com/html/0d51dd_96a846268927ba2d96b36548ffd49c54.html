@@ -1,0 +1,103 @@
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <style>
+        * body {
+            margin: 0;
+            padding: 0;
+            font-family: "montserrat", sans-serif;
+        }
+
+        .middle {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            transform: translateY(-50%);
+        }
+
+        .counting-sec {
+            padding: 40px 0;
+            width: 100%;
+            background: #8ed4cc !important;
+        }
+
+        .inner-width {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+        }
+
+        .col {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+
+        .col i {
+            font-size: 50px;
+            color: #333;
+        }
+
+        .num {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <div class="middle">
+        <div class="counting-sec">
+            <div class="inner-width">
+                <div class="col">
+                    <i class="far fa-smile-beam"></i>
+                    <div class="num">3246</div>
+                    HAPPY CLIENTS
+                </div>
+
+                <div class="col">
+                    <i class="fas fa-spa"></i>
+                    <div class="num">56</div>
+                    PROGRAMS
+                </div>
+
+                <div class="col">
+                    <i class="fas fa-hot-tub"></i>
+                    <div class="num">687</div>
+                    TREATMENTS
+                </div>
+
+                <div class="col">
+                    <i class="fas fa-hands"></i>
+                    <div class="num">87</div>
+                    THERAPISTS WORLDWIDE
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        $(".num").counterUp({
+            delay: 10,
+            time: 3000
+        });
+    </script>
+
+
+</body>
+
+</html>
